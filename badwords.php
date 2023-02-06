@@ -21,6 +21,7 @@ $censured_paragraph = str_replace($badwords, '***', $paragraph);
         <p> <?= $paragraph ?> </p>
         <p>Questo paragrafo contiene <?= strlen($paragraph) ?> caratteri </p>
     </div>
+    <hr>
     <div>
         <h1> Paragrafo Censurato </h1>
         <p> <?= $censured_paragraph ?></p>
